@@ -76,6 +76,14 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.grey[300],
     fontWeight: 600,
   },
+  anchor: {
+    textDecoration: "none",
+    color: theme.palette.primary.main,
+    "&:hover": {
+      color: theme.palette.primary.main,
+      textDecoration: "none",
+    },
+  },
 }));
 
 export default function Footer(props) {
@@ -371,38 +379,22 @@ export default function Footer(props) {
             {content["copy"]}
           </Typography>
           <Box ml="auto" className={classes.icons}>
-            <IconButton
-              href="https://www.linkedin.com/in/peter-lewis-b5b3104b?originalSubdomain=ca"
-              target="_blank"
-              color="inherit"
-              aria-label="Facebook"
+            <Typography
+              color="textSecondary"
+              component="p"
+              variant="caption"
+              gutterBottom={false}
+              className={classes.copy}
             >
-              <FacebookIcon />
-            </IconButton>
-            {/* <IconButton
-              href="https://www.linkedin.com/in/peter-lewis-b5b3104b?originalSubdomain=ca"
-              target="_blank"
-              color="inherit"
-              aria-label="Twitter"
-            >
-              <TwitterIcon />
-            </IconButton> */}
-            {/* <IconButton
-              href="https://www.linkedin.com/in/peter-lewis-b5b3104b?originalSubdomain=ca"
-              target="_blank"
-              color="inherit"
-              aria-label="Instagram"
-            >
-              <InstagramIcon />
-            </IconButton> */}
-            <IconButton
-              href="https://www.linkedin.com/in/peter-lewis-b5b3104b?originalSubdomain=ca"
-              target="_blank"
-              color="inherit"
-              aria-label="LinkedIn"
-            >
-              <LinkedInIcon />
-            </IconButton>{" "}
+              Made with love by{" "}
+              <a
+                href="https://rangojango.com/"
+                target="_blank"
+                className={classes.anchor}
+              >
+                Rangojango
+              </a>
+            </Typography>
           </Box>
         </Box>
       </Container>

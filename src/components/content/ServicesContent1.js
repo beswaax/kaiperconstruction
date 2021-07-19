@@ -3,6 +3,8 @@ import { Container, Grid, makeStyles, Box } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   img: {
+    maxHeight: "40rem",
+
     transition: "transform 0.4s ease-in-out",
     border: `8px solid ${theme.palette.common.white}`,
     "&:hover": {
@@ -10,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
       transform: "scale(1.03)",
     },
     height: "100%",
+    width: "100%",
   },
 }));
 

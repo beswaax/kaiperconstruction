@@ -65,8 +65,7 @@ export default function Content(props) {
     "header-p1": "All-round competent construction company",
     description:
       "Certified quality management, permanent quality controls and 180 competent and motivated employees make the Kaiper group of companies your powerful and flexible partner in the construction industry",
-    description2:
-      "Here at Lewis & Co Chartered Accountants, we have a vast and diverse client base ranging from the medical professionals and construction contractors to retail and manufacturing businesses throughout Canada.",
+
     "primary-action": "Learn More",
     image: "/assets/pic3.png",
     ...props.content,

@@ -17,35 +17,6 @@ const Careers = () => {
     <section>
       <Head>
         <title key="title">Careers | Kaiper Construction Group Perth</title>{" "}
-        {/* <meta
-          name="description"
-          key="description"
-          content="As a traditional, successful and healthy medium-sized engineering company, we know exactly how important competent and success-oriented employees are. Whether you are an engineer or an architect, you always have a place with us."
-        />
-        <meta
-          name="keywords"
-          content="engineer toronto, careers engineering toronto, engineer toronto, pavement engineer toronto job, engineer jobs toronto, structural engineer job, structural engineer job toronto, envelope engineer career, envelope engineer career toronto, career structural engineer toronto"
-        />
-        <meta
-          property="og:title"
-          content="Careers | Engineering Link Toronto"
-          key="og:title"
-        />
-        <meta
-          property="og:url"
-          key="og:url"
-          content="engineeringlink.ca/career"
-        />
-
-        <meta
-          property="og:description"
-          key="og:description"
-          content="As a traditional, successful and healthy medium-sized engineering company, we know exactly how important competent and success-oriented employees are. Whether you are an engineer or an architect, you always have a place with us."
-        />
-        <meta property="og:locale" key="og:locale" content="en_US" />
-        <meta property="og:type" key="og:type" content="website" />
-
-        <link rel="canonical" key="canonical" href="/career" /> */}
       </Head>
       <PageHeader
         title={"Careers"}

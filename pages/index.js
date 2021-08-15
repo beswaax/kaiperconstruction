@@ -18,34 +18,8 @@ export default function Index() {
     <div className={classes.section}>
       <Head>
         <title key="title">Kaiper Construction Group Perth</title>{" "}
-        {/* <meta
-          name="description"
-          key="description"
-          content="The company at a glance. Find out more about us and our motivations. We have stood for the highest quality craftsmanship for over 10 years. We offer engineering services to a broad array of fields. As a provider of engineering services, we supply our customers with everything from a single source."
-        />
-        <meta
-          name="keywords"
-          content="engineering toronto, engineering structural toronto, toronto envelope engineering, structural engineering gta, mississauga engineering, mississauga engineering services, toronto engineering services"
-        />
-        <meta
-          property="og:title"
-          content="Engineering Link Toronto"
-          key="og:title"
-        />
-        <meta property="og:url" key="og:url" content="engineeringlink.ca/" />
-
-        <meta
-          property="og:description"
-          key="og:description"
-          content="The company at a glance. Find out more about us and our motivations. We have stood for the highest quality craftsmanship for over 10 years. We offer engineering services to a broad array of fields. As a provider of engineering services, we supply our customers with everything from a single source."
-        />
-        <meta property="og:locale" key="og:locale" content="en_US" />
-        <meta property="og:type" key="og:type" content="website" />
-
-        <link rel="canonical" key="canonical" href="/" /> */}
       </Head>
       <Header />
-      {/* <CustomerSegments /> */}
       <Content1 />
       <Content2 />
       <Content3 />

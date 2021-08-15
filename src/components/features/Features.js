@@ -8,7 +8,6 @@ import Typography from "@material-ui/core/Typography";
 import { Card, CardMedia, useMediaQuery, ButtonBase } from "@material-ui/core";
 
 import PhoneIcon from "@material-ui/icons/Phone";
-import PrintIcon from "@material-ui/icons/Print";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 
 const useStyles = makeStyles((theme) => ({

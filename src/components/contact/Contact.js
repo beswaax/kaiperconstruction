@@ -65,7 +65,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const JobContact = () => {
+const Contact = () => {
   const classes = useStyles();
   const theme = useTheme();
   const [alert, setAlert] = useState({
@@ -221,4 +221,4 @@ const JobContact = () => {
   );
 };
 
-export default JobContact;
+export default Contact;

@@ -96,7 +96,7 @@ export default function Footer(props) {
 
   const content = {
     brand: { image: "/assets/logo1/vector/default-monochrome.svg", width: 180 },
-    copy: "© 2021 Kaiper Construction. All rights reserved.",
+    copy: "© 2021 Kaiper Construction.",
     header1: "Links",
     header2: "Services",
     header3: "Contact",
@@ -386,14 +386,7 @@ export default function Footer(props) {
               gutterBottom={false}
               className={classes.copy}
             >
-              Made with love by{" "}
-              <a
-                href="https://rangojango.com/"
-                target="_blank"
-                className={classes.anchor}
-              >
-                Rangojango
-              </a>
+              All rights reserved.
             </Typography>
           </Box>
         </Box>

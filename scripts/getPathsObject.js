@@ -3,10 +3,10 @@ const fs = require("fs");
 module.exports = () => {
   const fileObj = {};
 
-  const walkSync = dir => {
+  const walkSync = (dir) => {
     // Get all files of the current directory & iterate over them
     const files = fs.readdirSync(dir);
-    files.forEach(file => {
+    files.forEach((file) => {
       // Construct whole file-path & retrieve file's stats
       const filePath = `${dir}${file}`;
       const fileStat = fs.statSync(filePath);
@@ -23,7 +23,7 @@ module.exports = () => {
         // Add this file to `fileObj`
         fileObj[`/${cleanFileName}`] = {
           page: `/${cleanFileName}`,
-          lastModified: fileStat.mtime
+          lastModified: fileStat.mtime,
         };
       }
     });
@@ -34,4 +34,3 @@ module.exports = () => {
 
   return fileObj;
 };
-
